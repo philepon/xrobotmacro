@@ -1,3 +1,5 @@
+Modified README from xmacro. All of these options should work.
+
 xrecordmacrorec:
 Grabs all the control over your local display and send the mouse and
 keyboard events to the remote display. In the meantime it emits KeyStrPress,
