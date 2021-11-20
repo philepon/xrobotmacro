@@ -53,7 +53,7 @@ When pressing and holding a key, `xrobotmacrorec` does not pick up on or send th
 
 __FAQ:__
 
-Why do I get a `Skipping stale KeyRelease event` message right after the recording starts?
+Why do I get a `Skipping stale KeyRelease event` message right after the recording starts?  
 The first time this message appears whenever you start xrobotmacroplay is normal and can be ignored.
 
 
