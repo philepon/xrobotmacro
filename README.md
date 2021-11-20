@@ -7,7 +7,14 @@ This program does not work on Wayland. XWayland should work fine.
 
 Compiling
 ---------
-Run the included makefile. You will need to have `libxtst-dev` (Ubuntu) or `libXtst-devel` (Fedora) installed.
+1. Download the zip and extract the contents.  
+
+2. `cd` into the extracted folder.  
+3. Make sure you have `libxtst-dev` (Ubuntu) or `libXtst-devel` (Fedora) installed.
+4. Run  
+		
+		make
+		
 
 Usage
 -----
