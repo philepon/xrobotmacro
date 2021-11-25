@@ -1,9 +1,11 @@
 # xrobotmacro
-A X11 Mouse/Keyboard recorder/playback tool. This basically does the same thing as TinyTask or GhostMouse on Windows. ~~AFAIK, this is the only automatic mouse/keyboard recorder program that works on Linux (automatic meaning that you don't have to specify delays, coordinates, or keys manually).~~ Xnee seems to have similar functionality. This program is an altertative to xnee.
+A X11 Mouse/Keyboard recorder/playback tool. This basically does the same thing as TinyTask or GhostMouse on Windows. ~~AFAIK, this is the only automatic mouse/keyboard recorder program that works on Linux (automatic meaning that you don't have to specify delays, coordinates, or keys manually).~~ 
+
+[Xnee](https://directory.fsf.org/wiki/Xnee) seems to have similar functionality. This program is an alternative to `xnee`.
 
 This program does not work on Wayland. XWayland should work fine.
 
-`xrobotmacro` is almost completely based on `xmacro`. I just modified it so that the delay between each mouse/keyboard event can be recorded and played back. For previous `xmacro` users, note that it is no longer necessary (and not recommended) to specify a manual delay between keyboard/mouse events, although the option is still available. However, note that specifying a manual delay will prepend that delay before the playback of every event. Delays that are read from stdin will not be affected and will be played back as normal.
+`xrobotmacro` is almost completely based on [xmacro](http://xmacro.sourceforge.net/). I just modified it so that the delay between each mouse/keyboard event can be recorded and played back. For previous `xmacro` users, note that it is no longer necessary (and not recommended) to specify a manual delay between keyboard/mouse events, although the option is still available. However, note that specifying a manual delay will prepend that delay before the playback of every event. Delays that are read from stdin will not be affected and will be played back as normal.
 
 Compiling
 ---------
