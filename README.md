@@ -1,5 +1,5 @@
 # xrobotmacro
-A X11 Mouse/Keyboard recorder/playback tool. This basically does the same thing as TinyTask or GhostMouse on Windows. AFAIK, this is the only automatic mouse/keyboard recorder program that works on Linux (automatic meaning that you don't have to specify delays, coordinates, or keys manually).
+A X11 Mouse/Keyboard recorder/playback tool. This basically does the same thing as TinyTask or GhostMouse on Windows. ~~AFAIK, this is the only automatic mouse/keyboard recorder program that works on Linux (automatic meaning that you don't have to specify delays, coordinates, or keys manually).~~ Xnee seems to have similar functionality. This program is an altertative to xnee.
 
 This program does not work on Wayland. XWayland should work fine.
 
